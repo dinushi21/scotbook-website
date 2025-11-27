@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Scotbook | Home</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Header / Navigation -->
+  <header class="site-header">
+    <div class="container nav-container">
+      <div class="logo">Scotbook</div>
+      <nav class="main-nav">
+        <ul>
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="shop.html">Shop All</a></li>
+          <li class="has-dropdown">
+            <a href="shop.html#categories">Categories</a>
+            <ul class="dropdown">
+              <li><a href="shop.html#adventure">Adventure books</a></li>
+              <li><a href="shop.html#children">Children's books</a></li>
+              <li><a href="shop.html#horror">Horror books</a></li>
+              <li><a href="shop.html#fantasy">Fantasy books</a></li>
+              <li><a href="shop.html#maths">Math's books</a></li>
+            </ul>
+          </li>
+          <li><a href="about.html#about-authors">About Authors</a></li>
+          <li><a href="shop.html#best-selling">Best Selling</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="home">
+    <!-- Hero / intro -->
+    <section class="hero">
+      <div class="container hero-content">
+        <div class="hero-text">
+          <p class="eyebrow">
+            Once you learn to read you will be forever free.
+          </p>
+          <h1>Welcome to Scotbook</h1>
+          <p class="tagline">So many books, so little time.</p>
+          <p class="hero-quote">
+            "That's the thing about books. They let you travel without moving your feet."
+          </p>
+          <a href="shop.html" class="btn-primary btn-bounce">Shop Now</a>
+        </div>
+        <div class="hero-side">
+          <div class="hero-placeholder">
+            <span>Bookstore Image</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Our Books / Categories preview -->
+    <section class="section" id="categories">
+      <div class="container">
+        <h2 class="section-title">Our Books</h2>
+        <p class="section-description">
+          Explore a wide range of books for every kind of reader. Browse by category or visit the full shop page.
+        </p>
+        <div class="category-grid">
+          <article class="category-card hover-raise">
+            <h3>Adventure books</h3>
+            <p>
+              Stories full of danger, discovery and journeys beyond the ordinary.
+            </p>
+            <a href="shop.html#adventure" class="link-button">View adventure</a>
+          </article>
+
+          <article class="category-card hover-raise">
+            <h3>Children's books</h3>
+            <p>
+              Colourful tales that spark imagination and early reading habits.
+            </p>
+            <a href="shop.html#children" class="link-button">View children's</a>
+          </article>
+
+          <article class="category-card hover-raise">
+            <h3>Horror books</h3>
+            <p>
+              Chilling reads for brave hearts who love a good scare.
+            </p>
+            <a href="shop.html#horror" class="link-button">View horror</a>
+          </article>
+
+          <article class="category-card hover-raise">
+            <h3>Fantasy books</h3>
+            <p>
+              Magical worlds, legendary creatures and epic quests.
+            </p>
+            <a href="shop.html#fantasy" class="link-button">View fantasy</a>
+          </article>
+
+          <article class="category-card hover-raise">
+            <h3>Math's books</h3>
+            <p>
+              From basic arithmetic to advanced theory, discover the beauty of numbers.
+            </p>
+            <a href="shop.html#maths" class="link-button">View math's</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Subscription -->
+    <section class="section subscription">
+      <div class="container subscription-inner">
+        <div>
+          <h2>Refresh your routine with our weekly updates</h2>
+          <p>Subscribe to get news about new arrivals, best sellers, and more.</p>
+        </div>
+        <form class="subscribe-form" action="#" method="post">
+          <input
+            type="email"
+            name="email"
+            placeholder="Enter your email"
+            required
+          />
+          <button type="submit" class="btn-primary">Subscribe</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <h3>Frais / Scotbook</h3>
+        <ul class="footer-links">
+          <li><a href="shop.html">Payment Methods</a></li>
+          <li><a href="shop.html">Return and Exchange</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3>Help</h3>
+        <ul class="footer-links">
+          <li><a href="shop.html">How to order</a></li>
+          <li><a href="shop.html">Shipping information</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3>Contact</h3>
+        <p>TEL - 078-1256222</p>
+        <p><a href="mailto:scotbook@gmail.com">scotbook@gmail.com</a></p>
+        <div class="socials">
+          <a href="https://instagram.com" aria-label="Instagram">Instagram</a>
+          <a href="https://facebook.com" aria-label="Facebook">Facebook</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="container footer-bottom">
+      <p>© 2023 by Frais / Scotbook. Hand-coded recreation of my original Wix site.</p>
+    </div>
+  </footer>
+</body>
+</html>
