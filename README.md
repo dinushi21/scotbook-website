@@ -1,54 +1,107 @@
-# Scotbook – Multi‑page Bookstore (Hand‑coded)
+📚 Scotbook –  Bookstore Website (Hand-Coded)
 
-This project is a **hand‑coded recreation** of my original Wix website “Scotbook”, an online bookstore concept.
+A clean, responsive bookstore website inspired by my original Wix design.
 
-- Original Wix site: https://dinushinilakshika.wixsite.com/scotbook
-- Tech stack: **HTML + CSS**
-- Structure: **Multi‑page** (Home, Shop, About, Contact)
+Scotbook is a fully hand-coded, multi-page bookstore experience recreated from my original Wix website concept.
+This version demonstrates my ability to translate a visual design into functional HTML + CSS, using clean code, reusable components, and modern layout techniques.
 
----
+🌐 Live Prototype (Original Wix Version)
 
-## Pages
+https://dinushinilakshika.wixsite.com/scotbook
 
-- `index.html` – Home page with hero section, category preview and newsletter subscription.
-- `shop.html` – “Shop All” page with a responsive **book grid** grouped by category and a “Best Selling” section.
-- `about.html` – About Scotbook + “About Authors” layout.
-- `contact.html` – Contact details + contact form layout.
+🛠️ Tech Stack
 
----
+HTML5 – semantic, clean, well-structured
 
-## Features
+CSS3 – responsive layouts with Grid & Flexbox
 
-- Sticky top navigation with dropdown “Categories” menu.
-- Re‑usable footer with contact information and helper links.
-- Animated elements:
-  - Buttons with a light hover “bounce”.
-  - Cards that gently raise on hover (`hover-raise` class).
-- Responsive layout using CSS grid and flexbox for:
-  - Category cards
-  - Book grid
-  - About and Contact page layouts
+No frameworks, no page builders — fully handwritten
 
----
+📄 Pages Included
+🔹 index.html — Home
 
-## How to run this project locally
+Hero banner with quotes and a CTA
 
-1. Download or clone the repository.
+Category highlights
 
-2. Open the folder in your editor:
+Newsletter subscription section
 
-   ```bash
-   cd scotbook-multipage
-   ```
+🔹 shop.html — Shop All
 
-3. Open `index.html` in your browser (double‑click it or use a live server extension).
+Fully responsive book grid
 
-You can navigate between pages using the top navigation bar.
+Books grouped by category
 
----
+“Best Selling” showcase section
 
-## Ideas for future improvements
+🔹 about.html — About Scotbook
 
-- Replace placeholder book titles, authors and prices with real data.
-- Connect the contact form to a real backend or form service.
-- Rebuild this layout in **React** or **Next.js** for an even more advanced portfolio project.
+Story behind the concept
+
+“About Authors” highlight panel
+
+🔹 contact.html — Contact
+
+Contact information
+
+Clean, structured contact form
+
+✨ Key Features
+🌟 Reusable Components
+
+Sticky navigation bar with dropdown menus
+
+Shared footer with consistent branding
+
+Clean and accessible page structure
+
+🎨 Interactive Visuals
+
+Subtle hover animations
+
+Soft button “bounce” effect
+
+Cards that elevate on hover (hover-raise)
+
+📱 Fully Responsive
+
+Using only CSS Grid & Flexbox:
+
+Category cards adjust to screen size
+
+Book grids scale gracefully
+
+About & Contact pages adapt to single-column layouts on mobile
+
+🚀 Running the Project Locally
+
+Download or clone the repository
+
+Open the folder:
+
+cd scotbook-multipage
+
+
+Launch the home page:
+
+Double-click index.html, or
+
+Use Live Server from VS Code
+
+Navigation links allow you to move between pages like a real multi-page website.
+
+🔮 Future Enhancements
+
+Replace placeholder book data with a real JSON dataset
+
+Add a backend/email service for the contact form
+
+Add mobile navigation menu (hamburger)
+
+Rebuild a Version 2 using:
+
+React (component-based UI)
+
+Next.js (routing + SEO + optimizations)
+
+Optional backend using Firebase / Supabase
